@@ -3,7 +3,3 @@ def samitleri_al(string):
     result = {letter for letter in string if letter.lower() not in vowels }
     # result = ''.join(result)
     return result
-
-# # or
-# string = "Hello world and how are u guys"
-# rem_vowel(string)
